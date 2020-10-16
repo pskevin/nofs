@@ -1,0 +1,21 @@
+
+nofs_init()
+    conn:
+    proto_major = 7
+    proto_minor = 26
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = c770fbb0
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = c770f260
+    logfile = c770f290
+    root_dir = /var/tmp/nofs
+    umask = 00000
